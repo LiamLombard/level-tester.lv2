@@ -1,8 +1,8 @@
 @prefix lv2:  <http://lv2plug.in/ns/lv2core#>.
 @prefix doap: <http://usefulinc.com/ns/doap#>.
 
-<http://lv2.liamlombard.me/level-tester>
-  a lv2:SimulatorPlugin;
+<file:///~/.lv2/level-tester.lv2/>
+  a lv2:AnalyserPlugin;
   lv2:binary <level-tester.so>;
   doap:name "Input and output level tester";
   doap:license <http://usefulinc.com/doap/licenses/gpl>;

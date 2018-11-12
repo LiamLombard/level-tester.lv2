@@ -5,7 +5,7 @@
 #include <fstream>
 #include "lv2.h"
 
-constexpr char URI[] = "http://lv2.liamlombard.me/level-tester";
+constexpr char URI[] = "file:///~/.lv2/level-tester.lv2/";
 std::ofstream logger;
 
 
