@@ -1,3 +1,5 @@
+code/build/*
+
 # Prerequisites
 *.d
 
