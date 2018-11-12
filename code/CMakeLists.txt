@@ -5,7 +5,7 @@ project(program)
 
 add_library(project_warnings INTERFACE)
 
-set(EXECUTABLE_NAME "leveltester")
+set(EXECUTABLE_NAME "level-tester")
 set(TEST_EXECUTABLE_NAME "levelTesterTester")
 
 if(CMAKE_COMPILER_IS_GNUCC)
