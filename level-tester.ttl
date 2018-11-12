@@ -3,7 +3,7 @@
 
 <http://lv2.liamlombard.me/level-tester>
   a lv2:SimulatorPlugin;
-  lv2:binary <filter.so>;
+  lv2:binary <level-tester.so>;
   doap:name "Input and output level tester";
   doap:license <http://usefulinc.com/doap/licenses/gpl>;
 
