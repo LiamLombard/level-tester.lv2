@@ -1,10 +1,10 @@
 @prefix lv2:  <http://lv2plug.in/ns/lv2core#>.
 @prefix doap: <http://usefulinc.com/ns/doap#>.
 
-<file:///~/.lv2/level-tester.lv2/>
+<https://github.com/LiamLombard/level-tester.lv2>
   a lv2:AnalyserPlugin;
   lv2:binary <level-tester.so>;
-  doap:name "Input and output level tester";
+  doap:name "Input level logger";
   doap:license <http://usefulinc.com/doap/licenses/gpl>;
 
 	lv2:port [
